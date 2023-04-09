@@ -99,7 +99,7 @@
     margin: -20px 0 0 -3px ;
   }
   .content .job{
-    font-size: 40px;
+    font-size: 25px;
     color: #2c3e50;
     display: flex;
   }
@@ -109,7 +109,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 4px solid #1de2d1;
-    animation: typing 5s steps(17) infinite;
+    animation: typing 5s steps(25) infinite;
     
   }
   @keyframes typing {
@@ -117,7 +117,7 @@
       width: 0ch;
     }
     50%{
-      width: 18ch;
+      width: 26ch;
     }
     100%{
       width: 0ch;

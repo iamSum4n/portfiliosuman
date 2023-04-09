@@ -7,7 +7,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url('css/back-pic.png');
+    background: linear-gradient(140deg, #87acfa 20%, #e171fa 100%);
     color: #faf8fa;
     display: flex;
     align-items: center;
@@ -17,10 +17,10 @@ body{
     
 }
 .cloud-pic{
-    width: 100%;
+    width: 200%;
     height: 149px;
-    margin: 0px auto;
-    background: url('css/cloud-pic-removebg-preview.png');
+    margin: -50px auto;
+    background: url('css/cloud-pic-removebg-preview-removebg-preview.png');
     background-size: 394px 173px;
     background-repeat: no-repeat;
     background-position: 120% 0px;
@@ -37,14 +37,14 @@ body{
 }
 
 .foot{
-    width: 100%;
+    width: 180%;
     height: 144px;
-    margin-bottom: 100px;
+    margin-top: -100px;
     background: url('css/fish-removebg-preview.png') no-repeat;
     background-size: 373px 173px;
     background-position-y: 100px ;
     background-position: 120% 0px;
-    animation:cloud 10s linear infinite;
+    animation:cloud 9s linear infinite;
 }
 
 header{ 
